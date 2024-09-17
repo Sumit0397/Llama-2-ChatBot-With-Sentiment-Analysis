@@ -1,1 +1,3 @@
 # Llama-2-ChatBot-With-Sentiment-Analysis
+
+This project demonstrates the creation of an AI-powered chatbot that uses the Llama 2 model for generating text responses and integrates sentiment analysis to adjust those responses based on the user’s mood. The chatbot first checks a predefined question-answer (QA) dataset to see if an answer exists. If not, it generates a response using the Llama 2 model. Sentiment analysis is performed using the VADER sentiment analysis tool to classify user input as positive, negative, or neutral. Depending on the detected sentiment, the chatbot tailors its response to create a more personalized and interactive experience. The project is built using Hugging Face Transformers, Gradio, and Python.
